@@ -24,7 +24,6 @@ const razones = [
   {titulo:"Sos hermosa e inteligente", texto:"Creo que ya lo dije, pero bueno, no está de más recordarlo !!"},
   {titulo:"La química que tenemos", texto:"No se si vos la sentis, supongo que sí, pero que fácil que es estar con vos, POR DIOSSSS"},
   {titulo:"Me aguantas", texto:"No se como haces con lo autista y molesto que puedo llegar a ser, con los chistes pelotudos que hago, los juegos de palabras, lo antisocial, y el resto de miles de defectos que tengo. Así que no se como haces, pero me alegro que lo hagas !!!"}
-  
 ];
 
 /* =========================================================
