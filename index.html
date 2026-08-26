@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ========== COMPLETAR: título de la pestaña ========== -->
+  <title>Razones por las que me enamoré de vos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header">
+    <div class="header__franjas" aria-hidden="true"></div>
+
+    <div class="header__contenido">
+      <img src="assets/escudo.png"
+           alt="Escudo de Estudiantes de La Plata"
+           class="header__escudo">
+
+      <!-- ========== COMPLETAR: su nombre ========== -->
+      <p class="header__eyebrow">Para Brenda Crespo</p>
+
+      <h1 class="header__titulo">
+        Las razones por las que<br><em>me enamoré de vos</em>
+      </h1>
+
+      <!-- ========== COMPLETAR: una frase corta y personal ========== -->
+      <p class="header__bajada">
+        Brenda, motivos para amarte, me sobran. Y razones... descubro una nueva todos los días. <br> PD: sé que tenes TDA pero no te distraigas con la foto que rebota por ahí
+
+        
+      </p>
+
+      <p class="header__contador">
+        <span id="contador">0</span> razones — y siguen sumando
+      </p>
+    </div>
+  </header>
+
+  <!-- ===================== RAZONES ===================== -->
+  <main>
+    <section class="razones" aria-label="Razones">
+      <!-- Las tarjetas se generan solas desde js/script.js -->
+      <div class="razones__lista" id="lista-razones"></div>
+    </section>
+
+    <!-- ===================== CIERRE ===================== -->
+    <section class="cierre">
+      <span class="cierre__corazon" aria-hidden="true">&#9829;</span>
+
+      <!-- ========== COMPLETAR: tu mensaje final ========== -->
+      <p class="cierre__texto">
+        Con muchisimo amor, estás son algunas de las razones por las cuales te amo y me enamoré de vos. Porque como te dije arriba, todos los días encuentro una nueva razón que me hace darme cuenta de lo enamorado que me tenes!
+      </p>
+
+      <!-- ========== COMPLETAR: tu nombre / la fecha ========== -->
+      <p class="cierre__firma">— Tu novio que te ama mucho (y espero que el único, Joaquín) —</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__franjas" aria-hidden="true"></div>
+  </footer>
+
+  <img src="assets/ella.jpg" alt="" class="flotante" id="flotante">  
+  <script src="js/script.js"></script>
+</body>
+</html>

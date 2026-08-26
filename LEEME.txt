@@ -1,0 +1,7 @@
+Guardá acá la imagen del escudo con el nombre exacto: escudo.png
+
+Conviene un PNG con fondo transparente, de unos 300px de ancho para que
+se vea nítido en pantallas retina (en la página se muestra a 96px).
+
+Si usás otro nombre o extensión, actualizá la ruta en index.html:
+<img src="assets/escudo.png" ...>
